@@ -1,0 +1,13 @@
+body {
+    background-color: #262424;
+    color: #f5f5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+::section {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ff3f3f;
+}
