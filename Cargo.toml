@@ -1,10 +1,4 @@
-[package]
-name = "reSearch"
-version = "0.1.0"
-edition = "2021"
-
 [dependencies]
 reqwest = { version = "0.11", features = ["json"] }
-scraper = "0.13"
-select = "0.6.0"
+select = "0.5"
 tokio = { version = "1", features = ["full"] }
