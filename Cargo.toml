@@ -1,4 +1,13 @@
+[package]
+name = "reSearch"
+version = "0.1.0"
+edition = "2021"
+
 [dependencies]
-reqwest = { version = "0.11", features = ["json"] }
-select = "0.5"
+reqwest = { version = "0.12.7", features = ["json"] }
 tokio = { version = "1", features = ["full"] }
+wry = "0.43.1"
+urlencoding = "2.1.0"
+webview = "0.1.1"
+event = "0.2.1"
+event-loop = "0.0.0"

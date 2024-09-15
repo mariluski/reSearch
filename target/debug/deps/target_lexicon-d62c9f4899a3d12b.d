@@ -1,0 +1,15 @@
+/home/mario/reSearch/target/debug/deps/libtarget_lexicon-d62c9f4899a3d12b.rmeta: /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/lib.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/data_model.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/host.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/parse_error.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/targets.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/triple.rs /home/mario/reSearch/target/debug/build/target-lexicon-f67be775274461d3/out/host.rs
+
+/home/mario/reSearch/target/debug/deps/libtarget_lexicon-d62c9f4899a3d12b.rlib: /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/lib.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/data_model.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/host.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/parse_error.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/targets.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/triple.rs /home/mario/reSearch/target/debug/build/target-lexicon-f67be775274461d3/out/host.rs
+
+/home/mario/reSearch/target/debug/deps/target_lexicon-d62c9f4899a3d12b.d: /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/lib.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/data_model.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/host.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/parse_error.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/targets.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/triple.rs /home/mario/reSearch/target/debug/build/target-lexicon-f67be775274461d3/out/host.rs
+
+/home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/lib.rs:
+/home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/data_model.rs:
+/home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/host.rs:
+/home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/parse_error.rs:
+/home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/targets.rs:
+/home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/target-lexicon-0.12.16/src/triple.rs:
+/home/mario/reSearch/target/debug/build/target-lexicon-f67be775274461d3/out/host.rs:
+
+# env-dep:OUT_DIR=/home/mario/reSearch/target/debug/build/target-lexicon-f67be775274461d3/out

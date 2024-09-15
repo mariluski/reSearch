@@ -1,0 +1,18 @@
+/home/mario/reSearch/target/debug/deps/libselectors-aa98d77a9adc0a67.rmeta: /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/lib.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/attr.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/bloom.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/builder.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/context.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/matching.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/nth_index_cache.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/parser.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/sink.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/tree.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/visitor.rs /home/mario/reSearch/target/debug/build/selectors-14616729726a54fc/out/ascii_case_insensitive_html_attributes.rs
+
+/home/mario/reSearch/target/debug/deps/selectors-aa98d77a9adc0a67.d: /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/lib.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/attr.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/bloom.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/builder.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/context.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/matching.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/nth_index_cache.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/parser.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/sink.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/tree.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/visitor.rs /home/mario/reSearch/target/debug/build/selectors-14616729726a54fc/out/ascii_case_insensitive_html_attributes.rs
+
+/home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/lib.rs:
+/home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/attr.rs:
+/home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/bloom.rs:
+/home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/builder.rs:
+/home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/context.rs:
+/home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/matching.rs:
+/home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/nth_index_cache.rs:
+/home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/parser.rs:
+/home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/sink.rs:
+/home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/tree.rs:
+/home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/selectors-0.25.0/visitor.rs:
+/home/mario/reSearch/target/debug/build/selectors-14616729726a54fc/out/ascii_case_insensitive_html_attributes.rs:
+
+# env-dep:OUT_DIR=/home/mario/reSearch/target/debug/build/selectors-14616729726a54fc/out
