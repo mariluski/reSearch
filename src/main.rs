@@ -1,13 +1,6 @@
-
 use reqwest::Client;
 use std::error::Error;
-use wry::{
-    webview::WebView,
-    window::WindowBuilder,
-    event::{Event, WindowEvent},
-    event_loop::{ControlFlow, EventLoop},
-};
-use urlencoding::encode;
+use web_view::*;
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn Error>> {
@@ -28,34 +21,18 @@ async fn main() -> Result<(), Box<dyn Error>> {
     // Get the response text (HTML content)
     let body = response.text().await?;
 
-    // Print the HTML content (optional)
+    // Print the HTML content
     println!("{}", body);
 
-    // Create and run the webview
-    let event_loop = EventLoop::new();
-    let window = WindowBuilder::new()
-        .with_title("Simple HTML Viewer")
-        .with_inner_size(wry::dpi::LogicalSize::new(800.0, 600.0))
-        .build(&event_loop)?;
-
-    let webview = WebView::new(window)?;
-    webview.load_html(&body)?;
-
-    event_loop.run(move |event, _, control_flow| {
-        *control_flow = ControlFlow::Wait;
-
-        match event {
-            Event::NewEvents(_) => println!("Application has started!"),
-            Event::WindowEvent {
-                event: WindowEvent::CloseRequested,
-                ..
-            } => {
-                println!("Window close requested");
-                *control_flow = ControlFlow::Exit;
-            },
-            _ => (),
-        }
-    });
+    web_view::builder()
+    .title("Webview Example")
+    .content(Content::Html(body))
+    .size(800, 600)
+    .resizable(true)
+    .user_data(())
+    .invoke_handler(|_webview: &mut WebView<()>, _arg: &str| Ok(()))
+    .run()
+    .unwrap();
 
     Ok(())
 }

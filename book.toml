@@ -1,0 +1,6 @@
+[book]
+authors = ["Mariluskithings (Mario Rosell)"]
+language = "en"
+multilingual = false
+src = "src"
+title = "reSearch documentation"
