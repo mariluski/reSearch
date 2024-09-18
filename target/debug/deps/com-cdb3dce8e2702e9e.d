@@ -1,0 +1,14 @@
+/home/mario/reSearch/target/debug/deps/libcom-cdb3dce8e2702e9e.rmeta: /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/com-0.2.0/src/lib.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/com-0.2.0/src/interfaces/mod.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/com-0.2.0/src/interfaces/iclass_factory.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/com-0.2.0/src/interfaces/iunknown.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/com-0.2.0/src/offset.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/com-0.2.0/src/ptr.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/com-0.2.0/src/rc.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/com-0.2.0/src/registration.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/com-0.2.0/src/runtime.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/com-0.2.0/src/sys.rs
+
+/home/mario/reSearch/target/debug/deps/com-cdb3dce8e2702e9e.d: /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/com-0.2.0/src/lib.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/com-0.2.0/src/interfaces/mod.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/com-0.2.0/src/interfaces/iclass_factory.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/com-0.2.0/src/interfaces/iunknown.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/com-0.2.0/src/offset.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/com-0.2.0/src/ptr.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/com-0.2.0/src/rc.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/com-0.2.0/src/registration.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/com-0.2.0/src/runtime.rs /home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/com-0.2.0/src/sys.rs
+
+/home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/com-0.2.0/src/lib.rs:
+/home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/com-0.2.0/src/interfaces/mod.rs:
+/home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/com-0.2.0/src/interfaces/iclass_factory.rs:
+/home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/com-0.2.0/src/interfaces/iunknown.rs:
+/home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/com-0.2.0/src/offset.rs:
+/home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/com-0.2.0/src/ptr.rs:
+/home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/com-0.2.0/src/rc.rs:
+/home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/com-0.2.0/src/registration.rs:
+/home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/com-0.2.0/src/runtime.rs:
+/home/mario/.cargo/registry/src/index.crates.io-6f17d22bba15001f/com-0.2.0/src/sys.rs:

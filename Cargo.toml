@@ -4,10 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-reqwest = { version = "0.12.7", features = ["json"] }
+reqwest = "0.12.7"
 tokio = { version = "1", features = ["full"] }
-wry = "0.43.1"
-urlencoding = "2.1.0"
-webview = "0.1.1"
-event = "0.2.1"
-event-loop = "0.0.0"
+web-view = "0.7.3"
+select = "0.6.0"

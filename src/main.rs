@@ -1,61 +1,30 @@
-
-use reqwest::Client;
-use std::error::Error;
-use wry::{
-    webview::WebView,
-    window::WindowBuilder,
-    event::{Event, WindowEvent},
-    event_loop::{ControlFlow, EventLoop},
-};
-use urlencoding::encode;
+use reqwest;
+use tokio;
+use web_view::{self, Content, WebViewBuilder};
+use select::document::Document;
+use select::predicate::Name;
 
 #[tokio::main]
-async fn main() -> Result<(), Box<dyn Error>> {
-    // Define the URL you want to scrape
-    let url = "https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default";
+async fn main() {
+    let res: reqwest::Response = reqwest::get("https://google.com")
+        .await
+        .expect("Failed to send request");
+    let body: String = res.text()
+        .await
+        .expect("Failed to read response text");
+    let raw_html: String = body.trim().to_string();
+    println!("{}", raw_html);
 
-    // Create a new HTTP client
-    let client = Client::new();
+    let document = Document::from_read(raw_html.as_bytes()).unwrap();
+    let title = "huh";
+    let title_string = format!("ReSearch - {}", title);
+    let web_view = WebViewBuilder::new()
+        .title(&title_string) // Set the window title
+        .content(Content::Html(&raw_html)) // Set the initial HTML content
+        .size(800, 600) // Set the window size
+        .resizable(true) // Allow the window to be resized
+        .user_data(()) // Specify user data
+        .invoke_handler(|_webview, _arg| Ok(())); // Specify an invoke handler
 
-    // Send a GET request
-    let response = client.get(url).send().await?;
-
-    // Ensure the request was successful
-    if !response.status().is_success() {
-        return Err(format!("Failed to fetch URL: {}", url).into());
-    }
-
-    // Get the response text (HTML content)
-    let body = response.text().await?;
-
-    // Print the HTML content (optional)
-    println!("{}", body);
-
-    // Create and run the webview
-    let event_loop = EventLoop::new();
-    let window = WindowBuilder::new()
-        .with_title("Simple HTML Viewer")
-        .with_inner_size(wry::dpi::LogicalSize::new(800.0, 600.0))
-        .build(&event_loop)?;
-
-    let webview = WebView::new(window)?;
-    webview.load_html(&body)?;
-
-    event_loop.run(move |event, _, control_flow| {
-        *control_flow = ControlFlow::Wait;
-
-        match event {
-            Event::NewEvents(_) => println!("Application has started!"),
-            Event::WindowEvent {
-                event: WindowEvent::CloseRequested,
-                ..
-            } => {
-                println!("Window close requested");
-                *control_flow = ControlFlow::Exit;
-            },
-            _ => (),
-        }
-    });
-
-    Ok(())
+web_view.run().unwrap(); // Run the event loop
 }
