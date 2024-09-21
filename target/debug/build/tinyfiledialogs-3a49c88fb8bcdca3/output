@@ -11,7 +11,7 @@ HOST_CC = None
 cargo:rerun-if-env-changed=CC
 CC = None
 cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
-RUSTC_WRAPPER = Some(/home/mario/.vscode/extensions/rust-lang.rust-analyzer-0.3.2112-linux-x64/server/rust-analyzer)
+RUSTC_WRAPPER = None
 cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
 CRATE_CC_NO_DEFAULTS = None
 DEBUG = Some(true)
@@ -34,7 +34,7 @@ cargo:warning=Thread model: posix
 cargo:warning=Supported LTO compression algorithms: zlib zstd
 cargo:warning=gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
 cargo:warning=COLLECT_GCC_OPTIONS='-O0' '-ffunction-sections' '-fdata-sections' '-fPIC' '-gdwarf-4' '-fno-omit-frame-pointer' '-m64' '-Wall' '-Wextra' '-v' '-D' 'USE_WINDOWS_HIDPI' '-o' '/home/mario/reSearch/target/debug/build/tinyfiledialogs-3a49c88fb8bcdca3/out/bd7bb318ec84866d-tinyfiledialogs.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' '/home/mario/reSearch/target/debug/build/tinyfiledialogs-3a49c88fb8bcdca3/out/'
-cargo:warning= /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D USE_WINDOWS_HIDPI libtinyfiledialogs/tinyfiledialogs.c -quiet -dumpdir /home/mario/reSearch/target/debug/build/tinyfiledialogs-3a49c88fb8bcdca3/out/ -dumpbase bd7bb318ec84866d-tinyfiledialogs.c -dumpbase-ext .c -m64 -mtune=generic -march=x86-64 -gdwarf-4 -O0 -Wall -Wextra -version -ffunction-sections -fdata-sections -fPIC -fno-omit-frame-pointer -fasynchronous-unwind-tables -fstack-protector-strong -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccUv4ZLv.s
+cargo:warning= /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D USE_WINDOWS_HIDPI libtinyfiledialogs/tinyfiledialogs.c -quiet -dumpdir /home/mario/reSearch/target/debug/build/tinyfiledialogs-3a49c88fb8bcdca3/out/ -dumpbase bd7bb318ec84866d-tinyfiledialogs.c -dumpbase-ext .c -m64 -mtune=generic -march=x86-64 -gdwarf-4 -O0 -Wall -Wextra -version -ffunction-sections -fdata-sections -fPIC -fno-omit-frame-pointer -fasynchronous-unwind-tables -fstack-protector-strong -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccntqLZG.s
 cargo:warning=GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
 cargo:warning=	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 cargo:warning=
@@ -55,7 +55,7 @@ cargo:warning=
 cargo:warning=GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 cargo:warning=Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
 cargo:warning=COLLECT_GCC_OPTIONS='-O0' '-ffunction-sections' '-fdata-sections' '-fPIC' '-gdwarf-4' '-fno-omit-frame-pointer' '-m64' '-Wall' '-Wextra' '-v' '-D' 'USE_WINDOWS_HIDPI' '-o' '/home/mario/reSearch/target/debug/build/tinyfiledialogs-3a49c88fb8bcdca3/out/bd7bb318ec84866d-tinyfiledialogs.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' '/home/mario/reSearch/target/debug/build/tinyfiledialogs-3a49c88fb8bcdca3/out/'
-cargo:warning= as -v --gdwarf-4 --64 -o /home/mario/reSearch/target/debug/build/tinyfiledialogs-3a49c88fb8bcdca3/out/bd7bb318ec84866d-tinyfiledialogs.o /tmp/ccUv4ZLv.s
+cargo:warning= as -v --gdwarf-4 --64 -o /home/mario/reSearch/target/debug/build/tinyfiledialogs-3a49c88fb8bcdca3/out/bd7bb318ec84866d-tinyfiledialogs.o /tmp/ccntqLZG.s
 cargo:warning=GNU ensamblador versión 2.38 (x86_64-linux-gnu) utilizando BFD versión (GNU Binutils for Ubuntu) 2.38
 cargo:warning=COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
 cargo:warning=LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
